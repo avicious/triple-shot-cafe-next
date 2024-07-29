@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #767f8b;
+  background-image: url("../public/images/grey-pattern.jpg");
+  background-position: 0 0;
+  background-size: auto;
+}
+
+.not-found {
+  text-align: center;
+  padding: 120px 60px;
+}
+
+.not-found p {
+  font-size: 30px;
+  line-height: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.not-found a {
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: #030c24;
+  color: #fefefe;
+}

@@ -1,0 +1,69 @@
+.newsletter {
+  background: url("../../public/images/blue-pattern.jpg");
+}
+
+.main {
+  padding: 80px 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter h2 {
+  font-size: 60px;
+  font-family: var(--font-luckiest);
+  color: #efefef;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.newsletter p {
+  font-size: 20px;
+  color: #efefef;
+}
+
+.newsletter input {
+  font-size: 20px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+
+.newsletter input[type="submit"] {
+  color: #030c24;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .newsletter h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 60px 20px;
+  }
+
+  .newsletter h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .newsletter input {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .newsletter input[type="email"] {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

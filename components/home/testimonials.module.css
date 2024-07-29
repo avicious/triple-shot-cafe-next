@@ -1,0 +1,45 @@
+.testimonials {
+  text-align: center;
+  padding: 10px 40px 60px 40px;
+}
+
+.testimonials h2 {
+  font-size: 80px;
+  font-family: var(--font-luckiest);
+  color: #030c24;
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 36px;
+  font-style: italic;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.author {
+  color: #030c24;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+
+@media (max-width: 760px) {
+  .testimonials h2 {
+    font-size: 56px;
+    line-height: 66px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .text {
+    font-size: 28px;
+  }
+}

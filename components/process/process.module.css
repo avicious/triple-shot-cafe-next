@@ -1,0 +1,132 @@
+.process {
+  position: relative;
+}
+
+.main {
+  text-align: center;
+  padding: 120px 60px;
+  z-index: 10;
+}
+
+.process img {
+  display: block;
+  margin: 40px auto;
+}
+
+.process h2 {
+  color: #030c24;
+  font-family: var(--font-luckiest);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 66px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.process h3 {
+  color: #030c24;
+  font-family: var(--font-luckiest);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.process p {
+  font-size: 20px;
+  line-height: 30px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.leafRight {
+  width: 20vw;
+  position: absolute;
+  top: 15%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  z-index: -1;
+}
+
+.leafLeft {
+  width: 15vw;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  z-index: -1;
+}
+
+.coffeeLeft {
+  position: absolute;
+  bottom: auto;
+  top: 160px;
+  left: -60px;
+  right: auto;
+  z-index: -1;
+  width: 25vw;
+}
+
+.portafilter {
+  width: 24vw;
+  position: absolute;
+  top: 35%;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  z-index: -1;
+}
+
+.cookie {
+  width: 14vw;
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  left: 15%;
+  right: auto;
+  z-index: -1;
+}
+
+.donut {
+  width: 19vw;
+  position: absolute;
+  top: auto;
+  bottom: 25%;
+  left: auto;
+  right: 0%;
+  z-index: -1;
+}
+
+@media (max-width: 760px) {
+  .process h2 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .process h3 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 250px;
+  }
+
+  .process p {
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .process h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .main {
+    padding: 60px 30px;
+  }
+}
